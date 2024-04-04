@@ -26,7 +26,7 @@ public class ImmutableMyDate {
 
     @Override
     public String toString() {
-        return "MyDate{" +
+        return "ImmutableMyDate{" +
                 "year=" + year +
                 ", month=" + month +
                 ", day=" + day +
