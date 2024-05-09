@@ -16,8 +16,8 @@ public class BoxMain3 {
         // 원하는 모든 타입 사용 가능
         GenericBox<Double> doubleBox = new GenericBox<Double>();
         doubleBox.set(10.5);
-        Double double1 = doubleBox.get();
-        System.out.println("double1 = " + double1);
+        Double doubleValue = doubleBox.get();
+        System.out.println("doubleValue = " + doubleValue);
 
         // 타입 추론: 생성하는 제네릭 타입 생략 가능
         GenericBox<Integer> integerBox2 = new GenericBox<>();
