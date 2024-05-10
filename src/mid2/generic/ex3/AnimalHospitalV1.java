@@ -1,11 +1,11 @@
-package mid2.generic.test.ex3;
+package mid2.generic.ex3;
 
-import mid2.generic.animal.Dog;
+import mid2.generic.animal.Animal;
 
-public class DogHospital {
-    private Dog animal;
+public class AnimalHospitalV1 {
+    private Animal animal;
 
-    public void set(Dog animal) {
+    public void set(Animal animal) {
         this.animal = animal;
     }
 
@@ -15,9 +15,7 @@ public class DogHospital {
         animal.sound();
     }
 
-    public Dog bigger(Dog target) {
+    public Animal bigger(Animal target) {
         return animal.getSize() > target.getSize() ? animal : target;
     }
-
-
 }
