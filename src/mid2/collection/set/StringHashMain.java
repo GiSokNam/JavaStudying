@@ -20,6 +20,7 @@ public class StringHashMain {
         System.out.println("hashIndex(A) = " + hashIndex(hashCode("A")));
         System.out.println("hashIndex(B) = " + hashIndex(hashCode("B")));
         System.out.println("hashIndex(AB) = " + hashIndex(hashCode("AB")));
+
     }
 
     static int hashCode(String str) {

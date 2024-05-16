@@ -29,7 +29,6 @@ public class MyHashSetV1 {
         return value % capacity;
     }
 
-    // O(n)
     public boolean add(int value) {
         int hashIndex = hashIndex(value);
         LinkedList<Integer> bucket = buckets[hashIndex];
@@ -42,7 +41,6 @@ public class MyHashSetV1 {
         return true;
     }
 
-    // O(n)
     public boolean contains(int searchValue) {
         int hashIndex = hashIndex(searchValue);
         LinkedList<Integer> bucket = buckets[searchValue];

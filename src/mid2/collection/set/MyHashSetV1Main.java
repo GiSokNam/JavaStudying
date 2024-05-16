@@ -19,5 +19,6 @@ public class MyHashSetV1Main {
         boolean removeResult = set.remove(searchValue);
         System.out.println("removeResult = " + removeResult);
         System.out.println(set);
+
     }
 }
